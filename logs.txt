@@ -1,0 +1,174 @@
+2022-11-03 10:51:16.174 +03:00 [INF] Starting web host.
+2022-11-03 17:41:22.981 +03:00 [INF] Starting web host.
+2022-11-03 17:41:31.189 +03:00 [INF] Loaded ABP modules:
+2022-11-03 17:41:31.196 +03:00 [INF] - StudentInfoSystem.Web.StudentInfoSystemWebModule
+2022-11-03 17:41:31.196 +03:00 [INF]   - StudentInfoSystem.StudentInfoSystemHttpApiClientModule
+2022-11-03 17:41:31.196 +03:00 [INF]     - StudentInfoSystem.StudentInfoSystemApplicationContractsModule
+2022-11-03 17:41:31.196 +03:00 [INF]       - StudentInfoSystem.StudentInfoSystemDomainSharedModule
+2022-11-03 17:41:31.196 +03:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2022-11-03 17:41:31.196 +03:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainSharedModule
+2022-11-03 17:41:31.196 +03:00 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2022-11-03 17:41:31.196 +03:00 [INF]           - Volo.Abp.Validation.AbpValidationModule
+2022-11-03 17:41:31.196 +03:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2022-11-03 17:41:31.196 +03:00 [INF]             - Volo.Abp.Localization.AbpLocalizationModule
+2022-11-03 17:41:31.196 +03:00 [INF]               - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2022-11-03 17:41:31.196 +03:00 [INF]               - Volo.Abp.Settings.AbpSettingsModule
+2022-11-03 17:41:31.196 +03:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2022-11-03 17:41:31.196 +03:00 [INF]                 - Volo.Abp.Security.AbpSecurityModule
+2022-11-03 17:41:31.196 +03:00 [INF]                 - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2022-11-03 17:41:31.196 +03:00 [INF]                   - Volo.Abp.Data.AbpDataModule
+2022-11-03 17:41:31.196 +03:00 [INF]                     - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2022-11-03 17:41:31.196 +03:00 [INF]                     - Volo.Abp.Uow.AbpUnitOfWorkModule
+2022-11-03 17:41:31.196 +03:00 [INF]                     - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2022-11-03 17:41:31.196 +03:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2022-11-03 17:41:31.196 +03:00 [INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2022-11-03 17:41:31.196 +03:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2022-11-03 17:41:31.196 +03:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2022-11-03 17:41:31.196 +03:00 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictDomainSharedModule
+2022-11-03 17:41:31.196 +03:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2022-11-03 17:41:31.196 +03:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2022-11-03 17:41:31.196 +03:00 [INF]         - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2022-11-03 17:41:31.196 +03:00 [INF]       - Volo.Abp.Account.AbpAccountApplicationContractsModule
+2022-11-03 17:41:31.196 +03:00 [INF]         - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2022-11-03 17:41:31.196 +03:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2022-11-03 17:41:31.196 +03:00 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2022-11-03 17:41:31.196 +03:00 [INF]               - Volo.Abp.Json.AbpJsonModule
+2022-11-03 17:41:31.196 +03:00 [INF]                 - Volo.Abp.Timing.AbpTimingModule
+2022-11-03 17:41:31.196 +03:00 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2022-11-03 17:41:31.196 +03:00 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2022-11-03 17:41:31.196 +03:00 [INF]                 - Volo.Abp.Threading.AbpThreadingModule
+2022-11-03 17:41:31.196 +03:00 [INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2022-11-03 17:41:31.196 +03:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2022-11-03 17:41:31.196 +03:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2022-11-03 17:41:31.196 +03:00 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2022-11-03 17:41:31.196 +03:00 [INF]               - Volo.Abp.Auditing.AbpAuditingContractsModule
+2022-11-03 17:41:31.196 +03:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2022-11-03 17:41:31.196 +03:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2022-11-03 17:41:31.196 +03:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementApplicationContractsModule
+2022-11-03 17:41:31.196 +03:00 [INF]     - Volo.Abp.Account.AbpAccountHttpApiClientModule
+2022-11-03 17:41:31.196 +03:00 [INF]       - Volo.Abp.Http.Client.AbpHttpClientModule
+2022-11-03 17:41:31.196 +03:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2022-11-03 17:41:31.196 +03:00 [INF]           - Volo.Abp.Http.AbpHttpAbstractionsModule
+2022-11-03 17:41:31.196 +03:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2022-11-03 17:41:31.196 +03:00 [INF]         - Volo.Abp.Castle.AbpCastleCoreModule
+2022-11-03 17:41:31.196 +03:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2022-11-03 17:41:31.196 +03:00 [INF]         - Volo.Abp.RemoteServices.AbpRemoteServicesModule
+2022-11-03 17:41:31.196 +03:00 [INF]     - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2022-11-03 17:41:31.196 +03:00 [INF]     - Volo.Abp.PermissionManagement.AbpPermissionManagementHttpApiClientModule
+2022-11-03 17:41:31.196 +03:00 [INF]     - Volo.Abp.TenantManagement.AbpTenantManagementHttpApiClientModule
+2022-11-03 17:41:31.196 +03:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementHttpApiClientModule
+2022-11-03 17:41:31.196 +03:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementHttpApiClientModule
+2022-11-03 17:41:31.196 +03:00 [INF]   - StudentInfoSystem.StudentInfoSystemHttpApiModule
+2022-11-03 17:41:31.196 +03:00 [INF]     - Volo.Abp.Account.AbpAccountHttpApiModule
+2022-11-03 17:41:31.196 +03:00 [INF]       - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2022-11-03 17:41:31.196 +03:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2022-11-03 17:41:31.196 +03:00 [INF]           - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2022-11-03 17:41:31.196 +03:00 [INF]             - Volo.Abp.Auditing.AbpAuditingModule
+2022-11-03 17:41:31.196 +03:00 [INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2022-11-03 17:41:31.196 +03:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2022-11-03 17:41:31.196 +03:00 [INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2022-11-03 17:41:31.196 +03:00 [INF]             - Volo.Abp.UI.AbpUiModule
+2022-11-03 17:41:31.196 +03:00 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2022-11-03 17:41:31.196 +03:00 [INF]           - Volo.Abp.Application.AbpDddApplicationModule
+2022-11-03 17:41:31.196 +03:00 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2022-11-03 17:41:31.196 +03:00 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2022-11-03 17:41:31.196 +03:00 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2022-11-03 17:41:31.196 +03:00 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2022-11-03 17:41:31.196 +03:00 [INF]     - Volo.Abp.TenantManagement.AbpTenantManagementHttpApiModule
+2022-11-03 17:41:31.196 +03:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementHttpApiModule
+2022-11-03 17:41:31.197 +03:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementHttpApiModule
+2022-11-03 17:41:31.197 +03:00 [INF]   - Volo.Abp.AspNetCore.Authentication.OpenIdConnect.AbpAspNetCoreAuthenticationOpenIdConnectModule
+2022-11-03 17:41:31.197 +03:00 [INF]     - Volo.Abp.AspNetCore.Authentication.OAuth.AbpAspNetCoreAuthenticationOAuthModule
+2022-11-03 17:41:31.197 +03:00 [INF]   - Volo.Abp.AspNetCore.Mvc.Client.AbpAspNetCoreMvcClientModule
+2022-11-03 17:41:31.197 +03:00 [INF]     - Volo.Abp.AspNetCore.Mvc.Client.AbpAspNetCoreMvcClientCommonModule
+2022-11-03 17:41:31.197 +03:00 [INF]       - Volo.Abp.Caching.AbpCachingModule
+2022-11-03 17:41:31.197 +03:00 [INF]         - Volo.Abp.Serialization.AbpSerializationModule
+2022-11-03 17:41:31.197 +03:00 [INF]   - Volo.Abp.Http.Client.Web.AbpHttpClientWebModule
+2022-11-03 17:41:31.197 +03:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite.AbpAspNetCoreMvcUiLeptonXLiteThemeModule
+2022-11-03 17:41:31.197 +03:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2022-11-03 17:41:31.197 +03:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2022-11-03 17:41:31.197 +03:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2022-11-03 17:41:31.197 +03:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2022-11-03 17:41:31.197 +03:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2022-11-03 17:41:31.197 +03:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2022-11-03 17:41:31.197 +03:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2022-11-03 17:41:31.197 +03:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2022-11-03 17:41:31.197 +03:00 [INF]       - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2022-11-03 17:41:31.197 +03:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2022-11-03 17:41:31.197 +03:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2022-11-03 17:41:31.197 +03:00 [INF]   - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2022-11-03 17:41:31.197 +03:00 [INF]   - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2022-11-03 17:41:31.197 +03:00 [INF]   - Volo.Abp.SettingManagement.Web.AbpSettingManagementWebModule
+2022-11-03 17:41:31.197 +03:00 [INF]   - Volo.Abp.Http.Client.IdentityModel.Web.AbpHttpClientIdentityModelWebModule
+2022-11-03 17:41:31.197 +03:00 [INF]     - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2022-11-03 17:41:31.197 +03:00 [INF]       - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2022-11-03 17:41:31.197 +03:00 [INF]   - Volo.Abp.Identity.Web.AbpIdentityWebModule
+2022-11-03 17:41:31.197 +03:00 [INF]     - Volo.Abp.PermissionManagement.Web.AbpPermissionManagementWebModule
+2022-11-03 17:41:31.197 +03:00 [INF]   - Volo.Abp.TenantManagement.Web.AbpTenantManagementWebModule
+2022-11-03 17:41:31.197 +03:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementWebModule
+2022-11-03 17:41:31.197 +03:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2022-11-03 17:41:31.197 +03:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2022-11-03 17:41:32.838 +03:00 [INF] User profile is available. Using 'C:\Users\İLAYDA AKDERE\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-03 17:41:33.125 +03:00 [INF] Initialized all ABP modules.
+2022-11-03 17:41:33.140 +03:00 [INF] Creating key {53757a8a-3c1d-4e15-b287-420f47271dcb} with creation date 2022-11-03 14:41:33Z, activation date 2022-11-03 14:41:33Z, and expiration date 2023-02-01 14:41:33Z.
+2022-11-03 17:41:33.153 +03:00 [INF] Writing data to file 'C:\Users\İLAYDA AKDERE\AppData\Local\ASP.NET\DataProtection-Keys\key-53757a8a-3c1d-4e15-b287-420f47271dcb.xml'.
+2022-11-03 17:41:33.224 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-03 17:41:33.224 +03:00 [INF] Hosting environment: Development
+2022-11-03 17:41:33.224 +03:00 [INF] Content root path: C:\Users\İLAYDA AKDERE\OneDrive\Masaüstü\StudentınfoSystem\src\StudentInfoSystem.Web\
+2022-11-03 17:41:33.357 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44334/ - -
+2022-11-03 17:41:33.357 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44334/ - -
+2022-11-03 17:41:33.412 +03:00 [WRN] The operation was canceled.
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Volo.Abp.Caching.DistributedCache`2.GetAsync(TCacheKey key, Nullable`1 hideErrors, Boolean considerUow, CancellationToken token)
+2022-11-03 17:41:33.427 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Volo.Abp.Threading.SemaphoreSlimExtensions.LockAsync(SemaphoreSlim semaphoreSlim, CancellationToken cancellationToken)
+   at Volo.Abp.Caching.DistributedCache`2.GetOrAddAsync(TCacheKey key, Func`1 factory, Func`1 optionsFactory, Nullable`1 hideErrors, Boolean considerUow, CancellationToken token)
+   at Volo.Abp.AspNetCore.Mvc.Client.MvcCachedApplicationConfigurationClient.GetAsync()
+   at Volo.Abp.AspNetCore.Mvc.Client.RemoteLanguageProvider.GetLanguagesAsync()
+   at Microsoft.AspNetCore.RequestLocalization.DefaultAbpRequestLocalizationOptionsProvider.GetLocalizationOptionsAsync()
+   at Microsoft.AspNetCore.RequestLocalization.AbpRequestLocalizationMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-03 17:41:33.974 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44334/ - - - 500 - text/html;+charset=utf-8 615.8608ms
+2022-11-03 17:41:37.950 +03:00 [WRN] It was not possible to connect to the redis server(s). UnableToConnect on 127.0.0.1:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 2s ago, last-write: 2s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 4s ago, v: 2.2.4.27433
+StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). UnableToConnect on 127.0.0.1:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 2s ago, last-write: 2s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 4s ago, v: 2.2.4.27433
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImplAsync(ConfigurationOptions configuration, TextWriter log) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 861
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Volo.Abp.Caching.DistributedCache`2.GetAsync(TCacheKey key, Nullable`1 hideErrors, Boolean considerUow, CancellationToken token)
+2022-11-03 17:41:42.004 +03:00 [WRN] It was not possible to connect to the redis server(s). UnableToConnect on 127.0.0.1:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 2s ago, last-write: 2s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 8s ago, v: 2.2.4.27433
+StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). UnableToConnect on 127.0.0.1:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 2s ago, last-write: 2s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 8s ago, v: 2.2.4.27433
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImplAsync(ConfigurationOptions configuration, TextWriter log) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 861
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Volo.Abp.Caching.DistributedCache`2.GetAsync(TCacheKey key, Nullable`1 hideErrors, Boolean considerUow, CancellationToken token)
+2022-11-03 17:41:42.100 +03:00 [WRN] Could not find IdentityClientConfiguration for AbpMvcClient. Either define a configuration for AbpMvcClient or set a default configuration.
+2022-11-03 17:41:42.109 +03:00 [INF] Start processing HTTP request GET "https://localhost:44355/api/abp/application-configuration?api-version=1.0"
+2022-11-03 17:41:42.110 +03:00 [INF] Sending HTTP request GET "https://localhost:44355/api/abp/application-configuration?api-version=1.0"
+2022-11-03 17:41:42.113 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Volo.Abp.Http.Client.AbpRemoteCallException: An error occurred during the ABP remote HTTP request. (A task was canceled.) See the inner exception for details.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Volo.Abp.Http.Client.ClientProxying.ClientProxyBase`1.RequestAsync(ClientProxyRequestContext requestContext)
+   --- End of inner exception stack trace ---
+   at Volo.Abp.Http.Client.ClientProxying.ClientProxyBase`1.RequestAsync(ClientProxyRequestContext requestContext)
+   at Volo.Abp.Http.Client.ClientProxying.ClientProxyBase`1.RequestAsync[T](ClientProxyRequestContext requestContext)
+   at Volo.Abp.Http.Client.ClientProxying.ClientProxyBase`1.RequestAsync[T](String methodName, ClientProxyRequestTypeValue arguments)
+   at Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ClientProxies.AbpApplicationConfigurationClientProxy.GetAsync()
+   at Volo.Abp.AspNetCore.Mvc.Client.MvcCachedApplicationConfigurationClient.<GetAsync>b__13_0()
+   at Volo.Abp.Caching.DistributedCache`2.GetOrAddAsync(TCacheKey key, Func`1 factory, Func`1 optionsFactory, Nullable`1 hideErrors, Boolean considerUow, CancellationToken token)
+   at Volo.Abp.AspNetCore.Mvc.Client.MvcCachedApplicationConfigurationClient.GetAsync()
+   at Volo.Abp.AspNetCore.Mvc.Client.RemoteLanguageProvider.GetLanguagesAsync()
+   at Microsoft.AspNetCore.RequestLocalization.DefaultAbpRequestLocalizationOptionsProvider.GetLocalizationOptionsAsync()
+   at Microsoft.AspNetCore.RequestLocalization.AbpRequestLocalizationMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-03 17:41:42.126 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44334/ - - - 500 - text/html;+charset=utf-8 8769.7789ms
